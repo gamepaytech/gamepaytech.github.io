@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1440 height=810 style="width: 1440px; height: 810px; background: #231F20"></canvas>
-    <script src="Build/ciki.build.loader.js"></script>
+    <script src="Build/game.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/ciki.build.data.br",
-        frameworkUrl: "Build/ciki.build.framework.js.br",
-        codeUrl: "Build/ciki.build.wasm.br",
+        dataUrl: "Build/game.data",
+        frameworkUrl: "Build/game.framework.js",
+        codeUrl: "Build/game.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Chickey Chick",
