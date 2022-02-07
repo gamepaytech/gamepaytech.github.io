@@ -26,7 +26,9 @@ a {
 .webgl-wrapper {
   display: inline-block;
   width: 100%;
+  max-width: 177vh;
   position: relative;
+  margin: auto;
 }
 
 .webgl-content {
